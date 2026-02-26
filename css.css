@@ -1,0 +1,218 @@
+.home{
+    background-color: #ebeeef;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    /*gap: 150px;*/
+}
+
+.links{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color: #000;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.banner{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.fundoTexto{
+    display: flex;
+    background-color: #e8f1fa;
+    border-radius: 25px;
+    justify-content: center;
+}
+
+.texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 700px;
+}
+
+.sobre {
+    padding: 40px;
+    background-color: #f4f7fb;
+}
+
+.sobreCaixa {
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.sobreTitulo {
+    color: #1f3c88;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+.sobreLista {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.fundoInformacao{
+    padding: 40px;
+    background-color: #ebf8fb;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.informacao li{
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.fundoTemporadas{
+    padding: 40px;
+    background-color: #ebf8fb;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.fundoVideo{
+    padding: 40px;
+    background-color: #eafdff;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato{
+    padding: 40px;
+    background-color: #f4f7fb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contatoTitulo{
+    color: #1f3c88;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+.contatoCaixa{
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+.formContato{
+    display: flex;
+    flex-direction: column;
+}
+
+.formContato label{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.formContato input,
+.formContato textarea{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.formContato textarea{
+    resize: vertical;
+    height: 100px;
+}
+
+.formContato button{
+    margin-top: 20px;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #1f3c88;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.formContato button:hover{
+    background-color: #15306a;
+}
+
+.galeria1{
+    padding: 40px;
+    background-color: #ebf8fb;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.fundoImagem img{
+    border-radius: 20px;
+}
+
+.galeria2{
+    padding: 40px;
+    background-color: #ebf8fb;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.fundoImagem2 img{
+    border-radius: 20px;
+}
+
+.galeria3{
+    padding: 40px;
+    background-color: #ebf8fb;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.fundoImagem3 img{
+    border-radius: 20px;
+}
+
+.rodape{
+    background: #ebf8fb;
+    color: #3f3f3f;
+    text-align: center;
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
